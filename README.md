@@ -17,5 +17,4 @@ We will be comparing mean EPA in the certain situations of extreme weather. We w
 ### Model
 We have trained an XGBoost model on the data at a 80:20 training:testing split. We have then fit our model to predict EPA based on the weather conditions. **Disclaimer: we expect the error rate to be quite high. It is extremely shortsighted to believe that we can predict QB performance solely based on weather. However, the point of this model is to determine the best QBs by taking weather into account. Some players might play in more adverse weather conditions.**
 
-## Progress check 2
-We have attached a .ipynb file containing all of the code and relevant images. Our one major concern is trying to maximize the efficiacy of the xgboost model. We have included k-fold cross validation as a way to maximize the model, but are unsure on how to implement the feedback from the cross validation.
+
