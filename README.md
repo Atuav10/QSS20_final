@@ -10,6 +10,7 @@ The data we will be using is from nfl_data_py - a Python package that contains p
 There is a variable within the dataset called "weather" where we will look for certain words that resemble rainy/snowy/windy/cold weather.
 
 How will we be measuring quarterback performance? We will be using the Expected Points Added (EPA) per game metric. This is a great way to see how a quarterback's performance directly contributes to the team's success and is a much better metric than a basic statistic like passing yards.
+[script.py](https://github.com/Atuav10/QSS20_final/blob/main/code/01_data_wrangling.ipynb)
 
 ### Introductory Data Analysis
 We will be comparing mean EPA in the certain situations of extreme weather. We will then conduct linear regressions to simply determine associations/perceived increase or decrease in EPA given the weather.
