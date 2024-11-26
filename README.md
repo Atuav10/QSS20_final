@@ -45,4 +45,4 @@ In terms of applications, we create our "EPA Over Expected" metric based on the 
 ### Concluding words
 This model can be useful at providing context to a quarterback's performance in adverse weather conditions. **Disclaimer: we expect the error rate to be quite high. It is extremely shortsighted to believe that we can predict QB performance solely based on weather. However, the point of this model is to determine the best QBs by taking weather into account. Some players might play in more adverse weather conditions.**
 
-
+Here is our [final_paper](https://github.com/Atuav10/QSS20_final/blob/main/final_paper.pdf)
