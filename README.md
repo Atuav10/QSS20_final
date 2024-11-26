@@ -1,5 +1,5 @@
 # QSS20 final
-## How does weather affect quarterback performance in the NFL?
+## How Does Weather Affect Quarterback Performance in the NFL?
 
 ### Introduction
 We have seen our fair share of harsh weather games in the NFL. Games played in snow, games played in rain, games played in frigid conditions, and games played in harsh winds. We have been told to temper our expectations in situations of extreme weather. Is this really the case? Are there some quarterbacks that thrive in extreme weather? We employ a combination of linear models and gradient boosting decision trees to determine our answer. 
