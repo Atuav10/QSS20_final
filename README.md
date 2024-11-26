@@ -5,7 +5,7 @@
 We have seen our fair share of harsh weather games in the NFL. Games played in snow, games played in rain, games played in frigid conditions, and games played in harsh winds. We have been told to temper our expectations in situations of extreme weather. Is this really the case? Are there some quarterbacks that thrive in extreme weather? We employ a combination of linear models and gradient boosting decision trees to determine our answer. 
 
 ### Data
-The data we will be using is from nfl_data_py - a Python package that contains play-by-play NFL data. We will be looking at all quarterback performances from 2014-2023 inclusive.
+The data we will be using is from [nfl_data_py](https://pypi.org/project/nfl-data-py/) - a Python package that contains play-by-play NFL data. We will be looking at all quarterback performances from 2014-2023 inclusive.
 
 There is a variable within the dataset called "weather" where we will look for certain words that resemble rainy/snowy/windy/cold weather.
 
@@ -15,7 +15,7 @@ We will be splitting our project into three separate python files. File 1 and Fi
 
 ### Script 1 - Data wrangling
 [01_data_wrangling.py](https://github.com/Atuav10/QSS20_final/blob/main/code/01_data_wrangling.ipynb)
-Loads in the play-by-play data from the nfl_data_py package. Outputs a csv file containing every single QB performance and the standardized weather conditions associated with that performance. 
+Loads in the play-by-play data from the nfl_data_py package. [Outputs](https://github.com/Atuav10/QSS20_final/blob/main/data/output01_input02.csv) a csv file containing every single QB performance and the standardized weather conditions associated with that performance. 
 
 This file includes importing all of the variables and extracting weather, temperature, and wind speed from the "weather" column. There are also a couple basic statistics included like mean EPA for each weather condition and seeing how frequent each weather condition occurs.
 
@@ -23,7 +23,7 @@ We then aggregate the individual plays to the game level for each quarterback. N
 
 ### Script 2 - Model - Creation, training/testing, and evaluation
 [02_model.py](https://github.com/Atuav10/QSS20_final/blob/main/code/02_model.ipynb)
-Loads in the output from script 1. Outputs a csv file that contains the quarterback name, associated weather data, and our prediction based on the model output.
+Loads in the output from script 1. [Outputs](https://github.com/Atuav10/QSS20_final/blob/main/data/output02_input03.csv) a csv file that contains the quarterback name, associated weather data, and our prediction based on the model output.
 
 In this script, we begin by conducting three different linear regression models where the main predictors are rainy/sunny/cloudy, the outcome is EPA, and the main controls are temperature and wind speed. 
 
