@@ -34,7 +34,7 @@ The final step is evaluating the model. We look at the major features, learning 
 We combine the results of the training and testing data (predictions) and save this as a csv. This is the input to the final model.
 
 ### Script 3 - Applications
-[03_applications.py](=https://github.com/Atuav10/QSS20_final/blob/main/code/03_applications.ipynb)
+[03_applications.py](https://github.com/Atuav10/QSS20_final/blob/main/code/03_applications.ipynb)
 Loads in the output from script 2. No unique output.
 
 In terms of applications, we create our "EPA Over Expected" metric based on the residuals of our predictions. We see who the best players are in terms of EPAOE in the different weather conditions. The final application is a visualization of how the top quarterbacks fluctuate in terms of EPAOE over expected in the different weather conditions.
